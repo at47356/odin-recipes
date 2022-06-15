@@ -1,0 +1,19 @@
+.main-img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag-link{
+    background-color: rgb(150, 150, 150);
+    color: hsl(0, 100%, 35%);
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: solid 3px;
+}
+.tag-container{
+    text-align: center;
+}
