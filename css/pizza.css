@@ -17,14 +17,14 @@
 }
 
 .pizza-tag{
-    background-color: rgba(80, 80, 80, 0.6);
+    background-color: hsl(0, 0%, 100%);
     color: hsl(0, 100%, 35%);
     display: inline-block;
     padding: 5px 10px 5px 10px;
     margin-bottom: 10px;
     text-decoration: none;
     border: solid 3px;
-    border-radius: 10%;
+    border-radius: 25%;
     font-family: "Josefin Sans";
 }
 
