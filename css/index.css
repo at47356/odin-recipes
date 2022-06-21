@@ -1,3 +1,19 @@
+
+/* border-box makes the height and width include the padding and border. However, 
+   the default normally is content-box, meaning that the heoght and width will only 
+   be the content part of any box */
+
+   html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Upper Section*/
+
+
 .nav-bar{
     text-align: center;
     border: solid white;

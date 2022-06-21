@@ -1,4 +1,25 @@
 
+/* {
+    border: 2px solid red;
+  }
+*/
+
+/* border-box makes the height and width include the padding and border. However, 
+   the default normally is content-box, meaning that the heoght and width will only 
+   be the content part of any box */
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Source Serif Pro"
+}
+/* Upper Section*/
 
 .nav-bar{
     text-align: center;
@@ -64,8 +85,8 @@
 }
 
 .main-heading{
-    font-family: "DM Serif Display", sans-serif;
-    font-weight: 500;
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: bold;
 }
 
 .pizza-tag{
