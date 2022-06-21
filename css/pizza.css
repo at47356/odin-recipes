@@ -2,7 +2,7 @@
 /* {
     border: 2px solid red;
   }
-*/
+
 
 /* border-box makes the height and width include the padding and border. However, 
    the default normally is content-box, meaning that the heoght and width will only 
@@ -28,20 +28,12 @@ body{
 }
 
 .logo{
-    width: 100%;
+    width: 400px;
     height: auto;
-    display: block;
-    margin: 0;
-    padding: 0;
-
-}
-.logo-container{
     display: inline-block;
     margin: 0;
     padding: 0;
-    width: 400px;
-    height: 150px;
-    
+
 }
 
 .nav-bar .navigation .nav-link{
@@ -50,8 +42,9 @@ body{
 }    
 
 .navigation{
-    color: black;
-    
+    color: black; 
+    margin-top: 5px;
+    padding-left: 0px;
 }
 
 .navigation li{
@@ -62,6 +55,7 @@ body{
     box-shadow: inset 0 0 0 0 hsl(0, 100%, 35%);
     color: #000000;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
 }
 
 .navigation li:hover {
