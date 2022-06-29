@@ -47,6 +47,7 @@ a{
     color: #000000;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     align-self: center;
+    font-size: 0.8em;
 }
 
 .navigation li:hover {
