@@ -69,6 +69,7 @@ body{
 .main-img{
     display: block;
     width: 87%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     
@@ -126,4 +127,13 @@ h3{
 ul{
     list-style: none;
     padding: 0px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 65%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
