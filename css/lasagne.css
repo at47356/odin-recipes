@@ -57,7 +57,7 @@ body{
     color: white;
 }
 
-/* Pizza Part */
+/* Lasagne Part */
 
 .intro-container{
     text-align: center;
@@ -86,5 +86,52 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+h3{
+    font-size: 2em;
+    color: rgb(56, 56, 56);
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.ingredients{
+    flex: 0 0 30%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: hsl(104, 25%, 29%);
+    color: white;
+    box-shadow: -5px 5px 20px 1px #000000;
     
 }
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 65%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol > li::marker {
+    font-weight: bold;
+    font-size: large;
+  }
