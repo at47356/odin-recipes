@@ -116,7 +116,7 @@ h3{
 .ingredients{
     flex: 0 0 30%;
     text-align: center;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-top: 5px;
     background-color: hsl(8, 82%, 40%);
     color: white;
