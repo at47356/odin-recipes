@@ -14,55 +14,5 @@
 }
 
 /* Upper Section*/
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    border: solid white;
-    box-shadow: 0px 5px 10px grey;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  padding: 0px;
-  margin: 0px;
-}
-
-.navbar ul li{
-    padding-top:auto;
-    padding-bottom: auto;
-}
-
-
-.navigation li{
-    padding: 15px;
-    text-decoration: none;
-    font-family: "Josefin Sans";
-    box-shadow: inset 0 0 0 0 hsl(354, 99%, 40%);
-    color: #000000;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    align-self: center;
-    font-size: 0.8em;
-}
-
-.navigation li:hover {
-    box-shadow: inset 150px 0 0 0 hsl(354, 99%, 50%);
-    color: white;
-  }
-
-
-.social-links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.social-links a{
-    margin-right: 10px;
-}
 
 
