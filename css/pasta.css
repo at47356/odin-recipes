@@ -53,6 +53,39 @@
 }
 
 .navigation li:hover {
-    box-shadow: inset 150px 0 0 0 hsl(1, 87%, 73%);
+    box-shadow: inset 150px 0 150px 0 hsl(1, 87%, 73%);
     color: white;
   }
+
+  /* Pasta Part */
+
+.main-img{
+    display: block;
+    width: 87%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.intro-container{
+    text-align: center;
+}
+
+.main-heading{
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.pasta-tag{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(1, 87%, 73%);
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: solid 3px;
+    border-radius: 10px;
+    font-family: "Josefin Sans";
+}
