@@ -101,3 +101,28 @@ h3{
     margin-right: auto;
     padding: 20px;
 }
+
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.ingredients{
+    flex: 1 0 30%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: hsl(1, 87%, 73%);
+    color: white;
+    box-shadow: -5px 5px 20px 1px #000000;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
