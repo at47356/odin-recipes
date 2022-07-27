@@ -130,3 +130,12 @@ ul{
     list-style: none;
     padding: 0px;
 }
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 65%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
