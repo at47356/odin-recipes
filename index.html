@@ -7,12 +7,10 @@
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 </head>
 <body>
-  <script>
-    let msg = prompt("Who's there?","" );
-    alert("Hello " + msg);
-  </script>
+ 
 
 <div class="nav-bar">    
 <a href="./index.html" class="logo-container"><img class="logo" src="./images/logo.svg" alt="Logo"></a>
@@ -35,6 +33,24 @@
     <li><a href="./pages/lasagne.html">Lasagne</a></li>
     <li><a href="./pages/pasta.html">Mac'n Cheese</a></li>
   </ul>
+
+<button onclick="document.getElementById('surprise').innerHTML = 'Now you see moi!';
+                 document.getElementById('surprise').style.fontSize = '30px';
+                 document.getElementById('surprise').style.backgroundColor = 'lightGrey';
+                 document.getElementById('surprise').style.fontFamily = 'Lora';
+                 document.getElementById('surprise').style.width = '300px';
+                 document.getElementById('surprise').style.borderRadius = '100px';
+                 document.getElementById('surprise').style.textAlign = 'center';
+                 document.getElementById('surprise').style.marginRight = '50%;'
+                 document.getElementById('surprise').style.marginLeft = '42%';
+                 document.getElementById('surprise').style.fontWeight = '600'
+
+
+                 
+                 ">Try me if you dare</button>
+
+<p id="surprise"></p>
+
 
 
 </body>
